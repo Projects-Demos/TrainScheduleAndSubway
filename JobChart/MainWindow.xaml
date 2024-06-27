@@ -8,8 +8,9 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
 		<StackPanel>
-			<Button x:Name="TrainShceduleGraph" Width="80" Height="30" Content="列车运行" Click="TrainShceduleGraph_Click"/>
-			<Button x:Name="DemoSubway" Width="80" Height="30" Content="深铁图" Click="DemoSubway_Click"/>
+			<Button x:Name="TrainShcedule" Width="120" Height="30" Content="列车运行" Click="TrainShcedule_Click"/>
+			<Button x:Name="TrainShceduleGraph" Width="120" Height="30" Content="列车运行Graph" Click="TrainShceduleGraph_Click"/>
+			<Button x:Name="DemoSubway" Width="120" Height="30" Content="深铁图" Click="DemoSubway_Click"/>
 		</StackPanel>
 	</Grid>
 </Window>

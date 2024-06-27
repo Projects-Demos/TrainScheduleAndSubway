@@ -72,6 +72,9 @@
     <Compile Include="TrainScheduleGraph\TrainScheduleControl.cs" />
     <Compile Include="TrainScheduleGraph\TrainScheduleViewModel.cs" />
     <Compile Include="TrainScheduleGraph\TrainStop.cs" />
+    <Compile Include="TrainSchedule\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
     <Page Include="DemoSubway\MainWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -93,6 +96,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="TrainScheduleGraph\MainWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TrainSchedule\MainWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

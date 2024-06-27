@@ -43,5 +43,12 @@ namespace JobChart
 			demoSubway = new DemoSubway.MainWindow();
 			demoSubway.Show();
 		}
+
+		TrainSchedule.MainWindow TrainSchedule = new TrainSchedule.MainWindow();
+		private void TrainShcedule_Click(object sender, RoutedEventArgs e)
+		{
+			TrainSchedule = new TrainSchedule.MainWindow();
+			TrainSchedule.Show();
+		}
     }
 }
